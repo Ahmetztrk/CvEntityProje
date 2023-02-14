@@ -163,6 +163,7 @@
     <Content Include="web2\resimler\img1.jpg" />
     <Content Include="web2\w3layouts-License.txt" />
     <Content Include="web2\Yeni Metin Belgesi.txt" />
+    <Content Include="web\images\about.jpg" />
     <Content Include="web\images\banner1.jpg" />
     <Content Include="YeniYetenek.aspx" />
     <Content Include="YetenekGuncelle.aspx" />
@@ -182,7 +183,6 @@
     <Content Include="web\css\fontawesome-all.min.css" />
     <Content Include="web\css\style.css" />
     <Content Include="web\fonts\fontawesome-webfont.svg" />
-    <Content Include="web\images\about.jpg" />
     <Content Include="web\images\g1.jpg" />
     <Content Include="web\images\g2.jpg" />
     <Content Include="web\images\g3.jpg" />
