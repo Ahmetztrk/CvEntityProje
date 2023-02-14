@@ -40,7 +40,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <p class="top_hdp mt-2">Bilgisayar Mühendisi</p>
         </div>
         <!-- header -->
-        <header>
+        <header> 
+
             <div class="nav-top">
                 <nav class="mnu mx-auto">
                     <label for="drop" class="toggle">Menu</label>
