@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-    <title>Conjoint a Corporate Category Bootstrap Responsive website Template | Home :: w3layouts</title>
+    <title>Ahmet Öztürk Offical Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Conjoint Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -153,7 +153,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
             <div class="cpy-right text-center">
                 <p>
-                    © 2018 Conjoint. All rights reserved | Design by
+                    © 2023 Ahmet Öztürk | Design by
 					<a href="http://w3layouts.com">W3layouts.</a>
                 </p>
             </div>
