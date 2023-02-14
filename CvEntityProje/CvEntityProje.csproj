@@ -164,6 +164,7 @@
     <Content Include="web2\w3layouts-License.txt" />
     <Content Include="web2\Yeni Metin Belgesi.txt" />
     <Content Include="web\images\ahmet.jpg" />
+    <Content Include="web\images\banner1.jpg" />
     <Content Include="YeniYetenek.aspx" />
     <Content Include="YetenekGuncelle.aspx" />
     <Content Include="Yeteneklerim.aspx" />
