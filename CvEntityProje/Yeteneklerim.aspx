@@ -4,5 +4,14 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-    Merhaba Dünya
+    <table class="table table-bordered">
+        <tr>
+            <th>ID</th>
+            <th>YETENEK</th>
+            <th>SİL</th>
+            <th>GÜNCELLE</th>
+        </tr>
+    </table>
+
+
 </asp:Content>
