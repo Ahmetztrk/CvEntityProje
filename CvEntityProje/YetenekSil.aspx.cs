@@ -11,7 +11,12 @@ namespace CvEntityProje
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            DbCvEntityEntities db = new DbCvEntityEntities();
+            int x = Convert.ToInt32(Request.QueryString["ID"]);
+            var ytnk = db.TBLYETENEKLER.Find(x);
+            db.TBLYETENEKLER.Remove(ytnk);
+            db.SaveChanges();
+            Response.Redirect("Yeteneklerim.Aspx");
         }
     }
 }

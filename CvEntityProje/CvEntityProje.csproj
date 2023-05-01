@@ -78,6 +78,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Deneyimler.aspx" />
     <Content Include="YeniYetenek.aspx" />
+    <Content Include="YetenekGuncelle.aspx" />
     <Content Include="Yeteneklerim.aspx" />
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -131,6 +132,13 @@
     </Compile>
     <Compile Include="YeniYetenek.aspx.designer.cs">
       <DependentUpon>YeniYetenek.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YetenekGuncelle.aspx.cs">
+      <DependentUpon>YetenekGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekGuncelle.aspx.designer.cs">
+      <DependentUpon>YetenekGuncelle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Yeteneklerim.aspx.cs">
       <DependentUpon>Yeteneklerim.aspx</DependentUpon>
