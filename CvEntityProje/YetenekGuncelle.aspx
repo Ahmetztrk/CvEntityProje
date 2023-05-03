@@ -7,6 +7,6 @@
     <br />
     <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" placeholder="yetenek..." ></asp:TextBox>
     <br />
-    <asp:Button ID="Button1" runat="server" Text="Kaydet" CssClass="btn btn-group" />
+    <asp:Button ID="Button1" runat="server" Text="Kaydet" CssClass="btn btn-group" OnClick="Button1_Click" style="left: 0px; top: 0px" />
 
 </asp:Content>

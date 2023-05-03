@@ -12,8 +12,20 @@ namespace CvEntityProje
         protected void Page_Load(object sender, EventArgs e)
         {
             int x = int.Parse(Request.QueryString["ID"]);
+            if (Page.IsPostBack == false)
+            {
+                var deger = db.TBLYETENEKLER.Find(x);
+                TextBox1.Text = deger.YETENEK;
+            }            
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            int x = int.Parse(Request.QueryString["ID"]);
             var deger = db.TBLYETENEKLER.Find(x);
-            TextBox1.Text = deger.YETENEK;
+            deger.YETENEK = TextBox1.Text;
+            db.SaveChanges();
+            Response.Redirect("Yeteneklerim.Aspx");
         }
     }
 }
