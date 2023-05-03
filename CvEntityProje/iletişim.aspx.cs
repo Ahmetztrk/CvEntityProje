@@ -11,7 +11,10 @@ namespace CvEntityProje
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            DbCvEntityEntities db = new DbCvEntityEntities();
+            var mesajlar = db.TBLILETISIM.ToList();
+            Repeater1.DataSource = mesajlar;
+            Repeater1.DataBind();
         }
     }
 }

@@ -24,7 +24,7 @@
                     <li><a href="#">Eğitim Hayatım</a></li>
                     <li><a href="#">Deneyimler</a></li>
                     <li><a href="Yeteneklerim.Aspx">Yeteneklerim</a></li>
-                    <li><a href="#">İletişim</a></li>
+                    <li><a href="iletişim.Aspx">İletişim</a></li>
                 </ul>
             </div>
         </nav>

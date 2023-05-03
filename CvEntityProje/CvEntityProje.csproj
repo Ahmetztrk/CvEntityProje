@@ -78,6 +78,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Deneyimler.aspx" />
     <Content Include="iletişim.aspx" />
+    <Content Include="MesajDetay.aspx" />
     <Content Include="YeniYetenek.aspx" />
     <Content Include="YetenekGuncelle.aspx" />
     <Content Include="Yeteneklerim.aspx" />
@@ -133,6 +134,13 @@
     </Compile>
     <Compile Include="iletişim.aspx.designer.cs">
       <DependentUpon>iletişim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.designer.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="YeniYetenek.aspx.cs">
       <DependentUpon>YeniYetenek.aspx</DependentUpon>
